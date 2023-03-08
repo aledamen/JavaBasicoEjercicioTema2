@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         pricePlusIva(10);
     }
-    public static int pricePlusIva(int price){
-        int iva = 10;
+    public static double pricePlusIva(int price){
+        double iva = price * 0.21;
         return price + iva;
     }
 }
